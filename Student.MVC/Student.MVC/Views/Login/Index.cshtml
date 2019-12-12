@@ -301,15 +301,15 @@
                 var id = $("#stu_username_hide").val();
                 var password = $("#stu_password_hide").val();
                 $.ajax({
-                    url: "GetJsonLogin",
+                    url: "/Login/GetJsonLogin",
                     data: { "id": id, "password": password },
-                    dateType: "json",
+                    dataType: "json",
                     type: "post",
                     success: function (result) {
                         if (result == 0) {
                             alert("cuowu");
                         } else if (result.Data.data != null) {
-                            window.location.pathname = "Student/Index";
+                            window.location.pathname = "/Student/Index";
                         }
                     }
                 })

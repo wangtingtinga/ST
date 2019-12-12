@@ -5,3 +5,80 @@
 出错类：Logger property: [(null)] - 
 错误描述：190901登陆了系统
  
+
+记录时间：2019-12-12 15:06:15,797 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：190901登陆了系统
+ 
+
+记录时间：2019-12-12 15:06:15,798 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：190901登陆了系统
+ 
+
+记录时间：2019-12-12 16:58:56,552 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：190901登陆了系统
+ 
+
+记录时间：2019-12-12 16:58:56,554 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：190901登陆了系统
+ 
+
+记录时间：2019-12-12 19:46:18,151 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：190901登陆了系统
+ 
+
+记录时间：2019-12-12 19:46:18,438 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"RecordID":1,"StudentID":190901,"RecordPassword":"1234","Pid":3}登陆了系统
+ 
+
+记录时间：2019-12-12 19:46:57,902 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"RecordID":1,"StudentID":190901,"RecordPassword":"1234","Pid":3}登陆了系统
+ 
+
+记录时间：2019-12-12 19:46:58,706 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"RecordID":1,"StudentID":190901,"RecordPassword":"1234","Pid":3}登陆了系统
+ 
+
+记录时间：2019-12-12 19:46:58,929 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"RecordID":1,"StudentID":190901,"RecordPassword":"1234","Pid":3}登陆了系统
+ 
+
+记录时间：2019-12-12 19:54:12,167 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：190901登陆了系统
+ 
+
+记录时间：2019-12-12 19:54:12,515 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"RecordID":1,"StudentID":190901,"RecordPassword":"1234","Pid":3}登陆了系统
+ 

@@ -47,8 +47,10 @@ namespace Student.MVC.Controllers
             JsonResult jsonResult = new JsonResult();
             if (record!=null)
             {
-                 LogHelper.Default.WriteInfo(id + "登陆了系统");
-                //string json = JsonConvert.SerializeObject(record);
+                LogHelper.Default.WriteInfo(id + "登陆了系统");
+                string json = JsonConvert.SerializeObject(record);
+                HttpCookie cokie = new HttpCookie("login", Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json)));
+                Response.Cookies.Add(cokie);
                 jsonResult.Data = new { data = record, state = "200" };
                 //jsonResult.JsonRequestBehavior = JsonRequestBehavior.AllowGet;
                 return Json(jsonResult,JsonRequestBehavior.AllowGet);
