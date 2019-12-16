@@ -2,6 +2,7 @@
 using Student.DAL.Entity;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,5 +30,15 @@ namespace Student.DAL
             List<StudentInfo> list = baseService.GetSimplePagedData<StudentInfo, int>(par, out count);
             return list;
         }
+        public int DeleteDic(int id)
+        {
+
+            return id;
+        }
+        //public FenyeJsonResult UpdateDic(SearchModel<StudentInfo> search)
+        //{
+        //    int result = Fenye.Instance.UpdateDic(search);
+        //    return new FenyeJsonResult(new { data = result, state = result });
+        //}
     }
 }

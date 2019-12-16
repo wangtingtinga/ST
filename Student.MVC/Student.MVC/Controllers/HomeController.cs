@@ -24,6 +24,17 @@ namespace Student.MVC.Controllers
             var totalPages = total % search.PageSize == 0 ? total / search.PageSize : total / search.PageSize + 1;
             return new FenyeJsonResult(new { Data = result, Total = total, TotalPages = totalPages }, "yyyy-MM-dd HH: mm");
         }
+        public FenyeJsonResult DeleteDic(int id)
+        {
+            int result = Fenye.Instance.DeleteDic(id);
+            return new FenyeJsonResult(new { data = result, state = result });
+        }
+        //[HttpPost]
+        //public FenyeJsonResult UpdateDic(SearchModel<StudentInfo> search)
+        //{
+        //    int result = Fenye.Instance.UpdateDic(search);
+        //    return new FenyeJsonResult(new { data = result, state = result });
+        //}
 
     }
 }

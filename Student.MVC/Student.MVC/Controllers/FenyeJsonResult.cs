@@ -8,7 +8,15 @@ namespace Student.MVC.Filters
 {
     public class FenyeJsonResult : JsonResult
     {
+        private object p;
+
         public FenyeJsonResult() { }
+
+        public FenyeJsonResult(object p)
+        {
+            this.p = p;
+        }
+
         public FenyeJsonResult(object data, JsonRequestBehavior behavior)
         {
             base.Data = data;

@@ -135,6 +135,7 @@
     <Content Include="images\copy_rignt_24.png" />
     <Content Include="images\背景1.jpg" />
     <Content Include="images\背景2.jpg" />
+    <Content Include="JS\common.js" />
     <Content Include="JS\jquery-1.11.0.min.js" />
     <Content Include="JS\jquery-1.7.2.js" />
     <Content Include="JS\jquery-1.8.2.min.js" />
@@ -150,10 +151,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Common\DeluxeStu.cs" />
+    <Compile Include="Common\FileModel.cs" />
     <Compile Include="Controllers\FenyeJsonResult.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\UploadController.cs" />
     <Compile Include="Filter\CustomAuthenticationFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -170,8 +173,10 @@
     <Content Include="Views\Student\Edit.cshtml" />
     <Content Include="Views\Student\Details.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
+    <Content Include="Views\Upload\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Upload\FileListIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -181,6 +186,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="UploadP\" />
+    <Folder Include="Views\Dictionary\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Student.DAL\Student.DAL.csproj">
