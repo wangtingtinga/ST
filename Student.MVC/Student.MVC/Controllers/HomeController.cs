@@ -29,12 +29,12 @@ namespace Student.MVC.Controllers
             int result = Fenye.Instance.DeleteDic(id);
             return new FenyeJsonResult(new { data = result, state = result });
         }
-        //[HttpPost]
-        //public FenyeJsonResult UpdateDic(SearchModel<StudentInfo> search)
-        //{
-        //    int result = Fenye.Instance.UpdateDic(search);
-        //    return new FenyeJsonResult(new { data = result, state = result });
-        //}
+        [HttpPost]
+        public FenyeJsonResult UpdateDic(SearchModel<StudentInfo> search)
+        {
+            int result = Fenye.Instance.UpdateDic(search);
+            return new FenyeJsonResult(new { data = result, state = result });
+        }
 
     }
 }

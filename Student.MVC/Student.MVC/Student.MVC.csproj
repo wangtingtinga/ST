@@ -119,8 +119,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\fileinput.css" />
     <Content Include="css\paging.css" />
     <Content Include="css\login.css" />
+    <Content Include="css\theme.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -136,6 +138,7 @@
     <Content Include="images\背景1.jpg" />
     <Content Include="images\背景2.jpg" />
     <Content Include="JS\common.js" />
+    <Content Include="JS\fileinput.js" />
     <Content Include="JS\jquery-1.11.0.min.js" />
     <Content Include="JS\jquery-1.7.2.js" />
     <Content Include="JS\jquery-1.8.2.min.js" />
@@ -143,8 +146,13 @@
     <Content Include="JS\jquery.tmpl.js" />
     <Content Include="JS\jquery1.42.min.js" />
     <Content Include="JS\paging.js" />
+    <Content Include="JS\piexif.js" />
+    <Content Include="JS\sortable.js" />
+    <Content Include="JS\theme.js" />
+    <Content Include="JS\theme2.js" />
     <Content Include="JS\Validform_v5.3.2.js" />
     <Content Include="JS\Validform_v5.3.2_min.js" />
+    <Content Include="JS\zh.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +185,7 @@
     <Content Include="Views\Upload\Index.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Upload\FileListIndex.cshtml" />
+    <Content Include="Views\Upload\FileInputIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

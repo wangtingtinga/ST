@@ -32,8 +32,12 @@ namespace Student.DAL
         }
         public int DeleteDic(int id)
         {
-
             return id;
+        }
+
+        public int UpdateDic(SearchModel<StudentInfo> search)
+        {
+            throw new NotImplementedException();
         }
         //public FenyeJsonResult UpdateDic(SearchModel<StudentInfo> search)
         //{
